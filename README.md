@@ -6,7 +6,7 @@ Python framework for simulating, calculating, and statistically validating A/B t
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ab-testing-product-analysis/blob/main/AB_Testing_Product_Analysis.ipynb)
 
 ## Project Overview
-This project demonstrates the end-to-end workflow of an A/B test for a product feature. It simulates an e-commerce scenario where a new UI design (Variant B) is tested against the current design (Control A) to determine if it drives a higher conversion rate. The project goes beyond simple averages by employing rigorous statistical testing to ensure business decisions are driven by data, not chance.
+This project demonstrates the end-to-end workflow of an A/B test for a product feature. It simulates an e-commerce scenario where a new UI design (Experimental B) is tested against the current design (Control A) to determine if it drives a higher conversion rate. The project goes beyond simple averages by employing rigorous statistical testing to ensure business decisions are driven by data, not chance.
 
 ## The Business Problem
 In product development, launching unverified changes can lead to revenue loss. The goal of this analysis is to:
@@ -17,7 +17,7 @@ In product development, launching unverified changes can lead to revenue loss. T
 ## Data Simulation
 To ensure a controlled environment for the test, a realistic dataset of 2,000 user sessions was procedurally generated using numpy's binomial distribution:
 * **Group A (Control):** 1,000 users exposed to the old design (~10% true conversion probability).
-* **Group B (Variant):** 1,000 users exposed to the new design (~13% true conversion probability).
+* **Group B (Experimental):** 1,000 users exposed to the new design (~13% true conversion probability).
 
 ## Statistical Methodology
 The core of this project relies on frequentist statistics to validate the results:
