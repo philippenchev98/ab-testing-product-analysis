@@ -4,6 +4,7 @@ Python framework for simulating, calculating, and statistically validating A/B t
 # Product Analysis: A/B Testing & Statistical Validation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UYxmPWC8YBvL-VqNRI6W7Ek-bzUhilPl#scrollTo=-cfiJtDvCuvw)
+
 📊 **View the business presentation [here](Product_Analysis_A-B_Testing_&_Statistical_Validation.pdf
 )**
 
