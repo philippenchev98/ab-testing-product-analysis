@@ -1,7 +1,7 @@
 # ab-testing-product-analysis
 Python framework for simulating, calculating, and statistically validating A/B test results using Z-tests and Confidence Intervals.
 
-# Product Analysis: A/B Testing & Statistical Validation 📊
+# Product Analysis: A/B Testing & Statistical Validation
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/ab-testing-product-analysis/blob/main/AB_Testing_Product_Analysis.ipynb)
 
